@@ -1,16 +1,14 @@
 from celery import Celery
 
+celery = Celery(__name__)
 
-def make_celery(app):
-    celery = Celery(
-        app.import_name,
+
+def init_celery(app):
+    celery.conf.update(
         broker=app.config["CELERY_BROKER_URL"],
-        backend=app.config["CELERY_RESULT_BACKEND"]
+        result_backend=app.config["CELERY_RESULT_BACKEND"]
     )
 
-    celery.conf.update(app.config)
-
-    #bind Flask app context
     class ContextTask(celery.Task):
         def __call__(self, *args, **kwargs):
             with app.app_context():
@@ -18,6 +16,7 @@ def make_celery(app):
 
     celery.Task = ContextTask
 
-    celery.autodiscover_tasks(["tasks.email_tasks"])
+    # autodiscover tasks from package
+    celery.autodiscover_tasks(["app.tasks"])
 
     return celery

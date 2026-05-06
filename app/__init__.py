@@ -9,7 +9,8 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from flask_caching import Cache
 from celery import Celery
-from .celery_app import make_celery
+from .celery_app import celery, init_celery
+from .tasks import email_tasks
 
 
 limiter = Limiter(key_func=get_remote_address)
@@ -43,11 +44,11 @@ def create_app():
     jwt.init_app(app)
     migrate.init_app(app, db)
     cache.init_app(app)
-    global celery
-    celery = make_celery(app)
+    init_celery(app)
 
-    import tasks.email_tasks
-    # from .tasks import email_tasks
+    # import tasks
+
+    # import tasks
 
     from .routes.users import users_bp
     app.register_blueprint(users_bp, url_prefix="/api")
