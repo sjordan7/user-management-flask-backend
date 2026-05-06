@@ -175,3 +175,137 @@
 2026-05-03 01:39:35,595 INFO  * Restarting with stat
 2026-05-03 01:39:37,897 WARNING  * Debugger is active!
 2026-05-03 01:39:37,909 INFO  * Debugger PIN: 889-629-488
+2026-05-05 14:44:15,722 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 14:44:15,726 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 14:44:15,732 INFO  * Restarting with stat
+2026-05-05 14:44:20,799 WARNING  * Debugger is active!
+2026-05-05 14:44:20,815 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:04:35,210 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 17:04:35,210 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 17:04:35,214 INFO  * Restarting with stat
+2026-05-05 17:04:38,770 WARNING  * Debugger is active!
+2026-05-05 17:04:38,772 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:26:07,716 INFO 127.0.0.1 - - [05/May/2026 17:26:07] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:29:45,910 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 17:29:45,912 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 17:29:45,927 INFO  * Restarting with stat
+2026-05-05 17:29:52,443 WARNING  * Debugger is active!
+2026-05-05 17:29:52,446 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:30:43,569 INFO 127.0.0.1 - - [05/May/2026 17:30:43] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:32:54,633 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 17:32:54,641 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 17:32:54,641 INFO  * Restarting with stat
+2026-05-05 17:33:01,737 WARNING  * Debugger is active!
+2026-05-05 17:33:01,753 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:33:09,686 INFO 127.0.0.1 - - [05/May/2026 17:33:09] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:33:56,577 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\routes\\users.py', reloading
+2026-05-05 17:33:56,958 INFO  * Restarting with stat
+2026-05-05 17:34:12,607 WARNING  * Debugger is active!
+2026-05-05 17:34:12,626 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:34:14,589 INFO 127.0.0.1 - - [05/May/2026 17:34:14] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:35:27,466 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\services\\users.py', reloading
+2026-05-05 17:35:27,860 INFO  * Restarting with stat
+2026-05-05 17:35:37,495 WARNING  * Debugger is active!
+2026-05-05 17:35:37,516 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:35:38,786 INFO 127.0.0.1 - - [05/May/2026 17:35:38] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:37:02,118 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\services\\users.py', reloading
+2026-05-05 17:37:02,406 INFO  * Restarting with stat
+2026-05-05 17:37:09,588 WARNING  * Debugger is active!
+2026-05-05 17:37:09,600 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:37:10,471 INFO 127.0.0.1 - - [05/May/2026 17:37:10] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:41:17,207 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\services\\users.py', reloading
+2026-05-05 17:41:17,613 INFO  * Restarting with stat
+2026-05-05 17:41:28,528 WARNING  * Debugger is active!
+2026-05-05 17:41:28,543 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:41:29,635 INFO 127.0.0.1 - - [05/May/2026 17:41:29] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:43:24,720 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\repositories\\user_repo.py', reloading
+2026-05-05 17:44:22,016 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 17:44:22,018 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 17:44:22,026 INFO  * Restarting with stat
+2026-05-05 17:44:33,542 WARNING  * Debugger is active!
+2026-05-05 17:44:33,563 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:44:35,048 INFO 127.0.0.1 - - [05/May/2026 17:44:35] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:46:19,909 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\repositories\\user_repo.py', reloading
+2026-05-05 17:46:20,340 INFO  * Restarting with stat
+2026-05-05 17:46:25,805 WARNING  * Debugger is active!
+2026-05-05 17:46:25,809 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:46:46,433 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 17:46:46,433 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 17:46:46,441 INFO  * Restarting with stat
+2026-05-05 17:46:52,070 WARNING  * Debugger is active!
+2026-05-05 17:46:52,073 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:47:02,013 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\services\\users.py', reloading
+2026-05-05 17:47:02,572 INFO  * Restarting with stat
+2026-05-05 17:47:09,897 WARNING  * Debugger is active!
+2026-05-05 17:47:09,907 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:47:20,347 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 17:47:20,347 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 17:47:20,350 INFO  * Restarting with stat
+2026-05-05 17:47:25,620 WARNING  * Debugger is active!
+2026-05-05 17:47:25,620 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:47:28,774 INFO 127.0.0.1 - - [05/May/2026 17:47:28] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:53:17,431 INFO 127.0.0.1 - - [05/May/2026 17:53:17] "[35m[1mPOST /api/signup HTTP/1.1[0m" 500 -
+2026-05-05 17:55:09,955 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\services\\users.py', reloading
+2026-05-05 17:55:10,261 INFO  * Restarting with stat
+2026-05-05 17:55:15,793 WARNING  * Debugger is active!
+2026-05-05 17:55:15,806 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:55:17,595 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\routes\\users.py', reloading
+2026-05-05 17:55:17,964 INFO  * Restarting with stat
+2026-05-05 17:55:25,380 WARNING  * Debugger is active!
+2026-05-05 17:55:25,397 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:55:26,772 INFO 127.0.0.1 - - [05/May/2026 17:55:26] "[35m[1mPOST /api/signup HTTP/1.1[0m" 201 -
+2026-05-05 17:56:05,453 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\routes\\users.py', reloading
+2026-05-05 17:56:05,781 INFO  * Restarting with stat
+2026-05-05 17:56:11,842 WARNING  * Debugger is active!
+2026-05-05 17:56:11,854 INFO  * Debugger PIN: 681-162-386
+2026-05-05 17:56:24,811 INFO 127.0.0.1 - - [05/May/2026 17:56:24] "[35m[1mPOST /api/signup HTTP/1.1[0m" 201 -
+2026-05-05 18:33:18,643 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\celery_app.py', reloading
+2026-05-05 18:33:19,173 INFO  * Restarting with stat
+2026-05-05 18:33:28,370 WARNING  * Debugger is active!
+2026-05-05 18:33:28,388 INFO  * Debugger PIN: 681-162-386
+2026-05-05 18:34:21,340 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\celery_app.py', reloading
+2026-05-05 18:34:21,917 INFO  * Restarting with stat
+2026-05-05 18:34:31,505 WARNING  * Debugger is active!
+2026-05-05 18:34:31,518 INFO  * Debugger PIN: 681-162-386
+2026-05-05 18:37:05,565 INFO  * Detected change in 'C:\\Users\\egdajsa\\OneDrive - Ericsson\\learning\\Python Backend\\user_management\\app\\__init__.py', reloading
+2026-05-05 18:37:05,932 INFO  * Restarting with stat
+2026-05-05 20:48:41,172 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 20:48:41,174 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 20:48:41,178 INFO  * Restarting with stat
+2026-05-05 20:48:43,722 WARNING  * Debugger is active!
+2026-05-05 20:48:43,851 INFO  * Debugger PIN: 647-195-583
+2026-05-05 20:50:49,573 INFO  * Detected change in '/mnt/c/Users/egdajsa/OneDrive - Ericsson/learning/Python Backend/user_management/app/celery_app.py', reloading
+2026-05-05 20:50:49,848 INFO  * Restarting with stat
+2026-05-05 20:50:52,070 WARNING  * Debugger is active!
+2026-05-05 20:50:52,072 INFO  * Debugger PIN: 647-195-583
+2026-05-05 20:51:02,292 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 20:51:02,296 INFO [33mPress CTRL+C to quit[0m
+2026-05-05 20:51:02,300 INFO  * Restarting with stat
+2026-05-05 20:51:04,696 WARNING  * Debugger is active!
+2026-05-05 20:51:04,698 INFO  * Debugger PIN: 647-195-583
+2026-05-05 20:51:24,735 INFO 127.0.0.1 - - [05/May/2026 20:51:24] "[35m[1mPOST /api/signup HTTP/1.1[0m" 201 -
+2026-05-05 20:52:37,558 INFO  * Detected change in '/mnt/c/Users/egdajsa/OneDrive - Ericsson/learning/Python Backend/user_management/app/__init__.py', reloading
+2026-05-05 20:52:37,880 INFO  * Restarting with stat
+2026-05-05 20:52:40,098 WARNING  * Debugger is active!
+2026-05-05 20:52:40,102 INFO  * Debugger PIN: 647-195-583
+2026-05-05 20:53:05,029 INFO 127.0.0.1 - - [05/May/2026 20:53:05] "[35m[1mPOST /api/signup HTTP/1.1[0m" 201 -
+2026-05-05 20:53:38,355 INFO  * Detected change in '/mnt/c/Users/egdajsa/OneDrive - Ericsson/learning/Python Backend/user_management/app/celery_app.py', reloading
+2026-05-05 20:53:38,650 INFO  * Restarting with stat
+2026-05-05 20:53:40,835 WARNING  * Debugger is active!
+2026-05-05 20:53:40,837 INFO  * Debugger PIN: 647-195-583
+2026-05-05 20:53:42,748 INFO  * Detected change in '/mnt/c/Users/egdajsa/OneDrive - Ericsson/learning/Python Backend/user_management/app/celery_app.py', reloading
+2026-05-05 20:53:43,065 INFO  * Restarting with stat
+2026-05-05 20:53:45,557 WARNING  * Debugger is active!
+2026-05-05 20:53:45,558 INFO  * Debugger PIN: 647-195-583
+2026-05-05 20:54:03,306 INFO 127.0.0.1 - - [05/May/2026 20:54:03] "[35m[1mPOST /api/signup HTTP/1.1[0m" 201 -
+2026-05-05 20:54:46,336 INFO  * Detected change in '/mnt/c/Users/egdajsa/OneDrive - Ericsson/learning/Python Backend/user_management/app/__init__.py', reloading
+2026-05-05 20:54:46,677 INFO  * Restarting with stat

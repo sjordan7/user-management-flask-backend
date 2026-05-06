@@ -10,6 +10,8 @@ from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identi
 from ..exceptions import NotFoundError, UnauthorizedError, ForbiddenError
 import logging
 from .. import limiter
+from .. import cache
+from ..tasks.email_tasks import send_email_task
 
 
 users_bp = Blueprint("users", __name__)
@@ -29,6 +31,10 @@ def signup():
         return jsonify(err.messages), 400
 
     user = signup_user(data)
+    # print(user)
+
+    #async task as delay sends task to queue
+    send_email_task.delay(data["email"])
 
     return user
 
@@ -46,6 +52,7 @@ def login():
 
 @users_bp.route("/users", methods=["GET"])
 @jwt_required()
+@cache.cached()
 def list_users():
     keyword = request.args.get("keyword", "")
     page = request.args.get("page", 1, type=int)

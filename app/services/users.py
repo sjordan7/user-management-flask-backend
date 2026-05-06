@@ -18,6 +18,7 @@ def signup_user(user_data):
                 password=hashed_pw.decode("utf-8"), role="user")
     # user = User(**user_data)
     user = create_user(user)
+    # print(user.email)
 
     return jsonify(user.to_dict()), 201
 
