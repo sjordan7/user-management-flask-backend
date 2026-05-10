@@ -78,6 +78,16 @@ This project is a **Flask-based User Management API** that demonstrates core bac
 
 ---
 
+### 7. Dockerize this application
+
+* Implemented Dockerfile and .dockerignore
+* Implemented docker-compose.yaml which contains three services
+  * web
+  * redis
+  * celery
+
+---
+
 ## ⚙️ Tech Stack
 
 * **Backend:** Flask
@@ -87,15 +97,12 @@ This project is a **Flask-based User Management API** that demonstrates core bac
 * **Async Tasks:** Celery
 * **Rate Limiting:** Flask-Limiter
 * **ORM:** SQLAlchemy
+* **Docker**
 
 ---
 
 ## 📌 Future Enhancements
 
-* Add refresh tokens for JWT
-* Implement distributed rate limiting using Redis
-* Add email notifications (Celery tasks)
-* Dockerize the application
 * Deploy on cloud (AWS/GCP)
 
 ---
@@ -110,7 +117,7 @@ This project is a **Flask-based User Management API** that demonstrates core bac
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run without Docker
 
 ```bash id="8t8y4p"
 # Install dependencies
@@ -124,6 +131,17 @@ python3 run.py
 
 # Start Celery worker
 celery -A app.celery_app.celery worker --loglevel=info
+```
+## ▶️ How to Run without Docker
+```
+# Run docker-compose.yml
+docker-compose up --build
+
+# Set Up the DB
+docker-compose exec web python3 -m setup_db
+
+# Create Admin User
+docker-compose exec web python3 -m app.create_admin
 ```
 
 ---

@@ -309,3 +309,63 @@
 2026-05-05 20:54:03,306 INFO 127.0.0.1 - - [05/May/2026 20:54:03] "[35m[1mPOST /api/signup HTTP/1.1[0m" 201 -
 2026-05-05 20:54:46,336 INFO  * Detected change in '/mnt/c/Users/egdajsa/OneDrive - Ericsson/learning/Python Backend/user_management/app/__init__.py', reloading
 2026-05-05 20:54:46,677 INFO  * Restarting with stat
+2026-05-06 14:35:38,502 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-06 14:35:38,503 INFO [33mPress CTRL+C to quit[0m
+2026-05-06 14:35:38,506 INFO  * Restarting with stat
+2026-05-06 14:35:40,322 WARNING  * Debugger is active!
+2026-05-06 14:35:40,325 INFO  * Debugger PIN: 647-195-583
+2026-05-06 15:03:59,258 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-06 15:03:59,259 INFO [33mPress CTRL+C to quit[0m
+2026-05-06 15:03:59,262 INFO  * Restarting with stat
+2026-05-06 15:04:00,855 WARNING  * Debugger is active!
+2026-05-06 15:04:00,856 INFO  * Debugger PIN: 647-195-583
+2026-05-06 15:04:11,510 INFO 127.0.0.1 - - [06/May/2026 15:04:11] "[35m[1mPOST /api/signup HTTP/1.1[0m" 201 -
+2026-05-06 15:13:57,213 INFO  * Detected change in '/mnt/c/Users/egdajsa/OneDrive - Ericsson/learning/Python Backend/user_management/app/__init__.py', reloading
+2026-05-06 15:13:57,517 INFO  * Restarting with stat
+2026-05-06 15:14:00,396 WARNING  * Debugger is active!
+2026-05-06 15:14:00,398 INFO  * Debugger PIN: 647-195-583
+2026-05-10 21:56:51,309 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-10 21:56:51,311 INFO [33mPress CTRL+C to quit[0m
+2026-05-10 21:56:51,315 INFO  * Restarting with stat
+2026-05-10 21:56:53,020 WARNING  * Debugger is active!
+2026-05-10 21:56:53,120 INFO  * Debugger PIN: 447-176-219
+2026-05-10 21:57:09,518 INFO 127.0.0.1 - - [10/May/2026 21:57:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-05-10 21:57:09,567 INFO 127.0.0.1 - - [10/May/2026 21:57:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-10 21:57:09,755 INFO 127.0.0.1 - - [10/May/2026 21:57:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-10 21:57:10,145 INFO 127.0.0.1 - - [10/May/2026 21:57:10] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=4co7acggsA0XFkuqIfM0 HTTP/1.1" 200 -
+2026-05-10 21:57:10,399 INFO 127.0.0.1 - - [10/May/2026 21:57:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-10 21:57:20,301 INFO 127.0.0.1 - - [10/May/2026 21:57:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-05-10 21:57:20,609 INFO 127.0.0.1 - - [10/May/2026 21:57:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-10 21:57:20,642 INFO 127.0.0.1 - - [10/May/2026 21:57:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-10 21:57:20,963 INFO 127.0.0.1 - - [10/May/2026 21:57:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=4co7acggsA0XFkuqIfM0 HTTP/1.1[0m" 304 -
+2026-05-10 21:57:44,848 INFO 127.0.0.1 - - [10/May/2026 21:57:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-05-10 21:57:44,885 INFO 127.0.0.1 - - [10/May/2026 21:57:44] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-10 21:57:44,890 INFO 127.0.0.1 - - [10/May/2026 21:57:44] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-10 21:57:44,917 INFO 127.0.0.1 - - [10/May/2026 21:57:44] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=4co7acggsA0XFkuqIfM0 HTTP/1.1" 200 -
+2026-05-10 21:57:44,976 INFO 127.0.0.1 - - [10/May/2026 21:57:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-10 21:58:48,859 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-10 21:58:48,860 INFO [33mPress CTRL+C to quit[0m
+2026-05-10 21:58:48,864 INFO  * Restarting with stat
+2026-05-10 21:58:50,309 WARNING  * Debugger is active!
+2026-05-10 21:58:50,311 INFO  * Debugger PIN: 447-176-219
+2026-05-10 21:58:54,162 INFO 127.0.0.1 - - [10/May/2026 21:58:54] "GET /api/ HTTP/1.1" 200 -
+2026-05-10 21:58:54,225 INFO 127.0.0.1 - - [10/May/2026 21:58:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-10 22:01:27,161 INFO  * Detected change in '/mnt/c/Users/egdajsa/OneDrive - Ericsson/learning/Python Backend/user_management/app/errors.py', reloading
+2026-05-10 22:01:27,367 INFO  * Restarting with stat
+2026-05-10 22:01:33,978 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-10 22:01:33,980 INFO [33mPress CTRL+C to quit[0m
+2026-05-10 22:01:33,983 INFO  * Restarting with stat
+2026-05-10 22:01:35,572 WARNING  * Debugger is active!
+2026-05-10 22:01:35,574 INFO  * Debugger PIN: 447-176-219
+2026-05-10 22:01:38,073 INFO 127.0.0.1 - - [10/May/2026 22:01:38] "GET /api/ HTTP/1.1" 200 -
+2026-05-10 22:01:38,118 ERROR error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-10 22:01:38,121 INFO 127.0.0.1 - - [10/May/2026 22:01:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-10 22:01:48,688 ERROR error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-10 22:01:48,690 INFO 127.0.0.1 - - [10/May/2026 22:01:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-05-10 22:01:48,723 ERROR error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-10 22:01:48,724 INFO 127.0.0.1 - - [10/May/2026 22:01:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -

@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+instance/
+app.log
+migrations/__pycache__/
+.idea/
+.vscode/
