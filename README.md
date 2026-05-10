@@ -132,7 +132,7 @@ python3 run.py
 # Start Celery worker
 celery -A app.celery_app.celery worker --loglevel=info
 ```
-## ▶️ How to Run without Docker
+## ▶️ How to Run with Docker
 ```
 # Run docker-compose.yml
 docker-compose up --build
