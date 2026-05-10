@@ -42,13 +42,10 @@ def create_app():
     db.init_app(app)
     limiter.init_app(app)
     jwt.init_app(app)
+    from .models.users import User
     migrate.init_app(app, db)
     cache.init_app(app)
     init_celery(app)
-
-    # import tasks
-
-    # import tasks
 
     from .routes.users import users_bp
     app.register_blueprint(users_bp, url_prefix="/api")
