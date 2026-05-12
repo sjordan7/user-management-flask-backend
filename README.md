@@ -85,6 +85,16 @@ This project is a **Flask-based User Management API** that demonstrates core bac
   * web
   * redis
   * celery
+  
+### 8. Production Ready with gunicorn and ngnix
+
+* Created gunicorn.conf.py
+* Created ./nginx/default.conf
+* Updated docker-compose.yaml which contains nginx service
+  * web
+  * nginx
+  * redis
+  * celery
 
 ---
 
@@ -98,6 +108,8 @@ This project is a **Flask-based User Management API** that demonstrates core bac
 * **Rate Limiting:** Flask-Limiter
 * **ORM:** SQLAlchemy
 * **Docker**
+* **gunicorn**
+* **nginx**
 
 ---
 
